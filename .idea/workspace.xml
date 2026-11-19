@@ -18,7 +18,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="PasswordCracking" targetName="PasswordCracking" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -26,7 +28,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e3e533-0858-4313-934d-6e2ee8383533" name="Changes" comment="" />
+    <list default="true" id="09e3e533-0858-4313-934d-6e2ee8383533" name="Changes" comment="CMakeLists.txt setup &amp; initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/md5.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cu" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,63 +44,79 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "irinush24"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/irinush24/Password-Cracking.git",
+    "accountId": "54f47f2e-bef6-4cbf-a7b1-74896eea0f18"
+  }
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.428060686193318" />
-      <entry key="MS500" value="3.252659009591075" />
-      <entry key="S2" value="8.221629632866131" />
-      <entry key="S5" value="13.124763448526922" />
-      <entry key="S10" value="16.19440538907422" />
-      <entry key="S30" value="19.138520487758218" />
-      <entry key="S60" value="20.342290044695442" />
-      <entry key="M2" value="21.890869836082434" />
-      <entry key="M5" value="24.140976760248343" />
-      <entry key="M10" value="25.37718063168056" />
-      <entry key="M15" value="25.869460940346038" />
-      <entry key="M30" value="26.40879508049971" />
-      <entry key="H1" value="26.697593874412277" />
-      <entry key="H2" value="26.847054312079997" />
-      <entry key="H4" value="26.92308617394967" />
-      <entry key="D1" value="26.98711932412594" />
-      <entry key="W1" value="26.998158386307015" />
+      <entry key="MS100" value="0.0036435448917956563" />
+      <entry key="MS500" value="0.7860710399805756" />
+      <entry key="S2" value="3.0368980149368117" />
+      <entry key="S5" value="5.360404103769707" />
+      <entry key="S10" value="7.815535574813665" />
+      <entry key="S30" value="14.011301495162297" />
+      <entry key="S60" value="21.27209345356968" />
+      <entry key="M2" value="30.352097477212748" />
+      <entry key="M5" value="42.66326589975881" />
+      <entry key="M10" value="55.31288749018956" />
+      <entry key="M15" value="64.09825697832741" />
+      <entry key="M30" value="78.23572237499857" />
+      <entry key="H1" value="88.53102747317806" />
+      <entry key="H2" value="94.80668339009259" />
+      <entry key="H4" value="98.27975227715235" />
+      <entry key="D1" value="101.36198088479634" />
+      <entry key="W1" value="101.90840312083262" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.58932400276197E-26" />
-      <entry key="MS500" value="9.199583646322335E-6" />
-      <entry key="S2" value="0.0550734195685433" />
-      <entry key="S5" value="0.3136005511302489" />
-      <entry key="S10" value="0.5600004992274379" />
-      <entry key="S30" value="0.8261835371416" />
-      <entry key="S60" value="0.9517750744118741" />
-      <entry key="M2" value="1.162327394030162" />
-      <entry key="M5" value="1.516002669232344" />
-      <entry key="M10" value="1.721918526207962" />
-      <entry key="M15" value="1.8054554326788637" />
-      <entry key="M30" value="1.897826227139346" />
-      <entry key="H1" value="1.9476231468197533" />
-      <entry key="H2" value="1.9734806345561835" />
-      <entry key="H4" value="1.9866565024446634" />
-      <entry key="D1" value="1.9977643499657785" />
-      <entry key="W1" value="1.9996803328476724" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.455921440828889E-152" />
+      <entry key="S2" value="1.3634554913918553E-38" />
+      <entry key="S5" value="7.142600932927928E-16" />
+      <entry key="S10" value="2.6725644862056972E-8" />
+      <entry key="S30" value="0.002989804356119273" />
+      <entry key="S60" value="0.05469555067351975" />
+      <entry key="M2" value="0.23795703883460972" />
+      <entry key="M5" value="0.7000189580137116" />
+      <entry key="M10" value="1.323830131401521" />
+      <entry key="M15" value="1.7939667843082696" />
+      <entry key="M30" value="2.589340131408429" />
+      <entry key="H1" value="3.1909499180262086" />
+      <entry key="H2" value="3.565106492361495" />
+      <entry key="H4" value="3.7743191675285974" />
+      <entry key="D1" value="3.9611837844009004" />
+      <entry key="W1" value="3.99442456706956" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3381763841430014" />
-      <entry key="MS500" value="3.2155178522923467" />
-      <entry key="S2" value="8.207581955662336" />
-      <entry key="S5" value="13.234617054867488" />
-      <entry key="S10" value="16.52803369194756" />
-      <entry key="S30" value="19.831917951876292" />
-      <entry key="S60" value="21.21478496082049" />
-      <entry key="M2" value="23.005851721615414" />
-      <entry key="M5" value="25.63363811126303" />
-      <entry key="M10" value="27.08621362506345" />
-      <entry key="M15" value="27.66600242986197" />
-      <entry key="M30" value="28.301986724386907" />
-      <entry key="H1" value="28.642852101325644" />
-      <entry key="H2" value="28.819340152100406" />
-      <entry key="H4" value="28.909142140446644" />
-      <entry key="D1" value="28.984783144092248" />
-      <entry key="W1" value="28.997824346871756" />
+      <entry key="MS100" value="1.0027258688913223" />
+      <entry key="MS500" value="1.6256129422208407" />
+      <entry key="S2" value="3.756189405914332" />
+      <entry key="S5" value="6.009719767604358" />
+      <entry key="S10" value="8.482435777523788" />
+      <entry key="S30" value="14.801705654206073" />
+      <entry key="S60" value="22.18086777618819" />
+      <entry key="M2" value="31.49307017589915" />
+      <entry key="M5" value="44.31122580963102" />
+      <entry key="M10" value="57.60486484402288" />
+      <entry key="M15" value="66.86843943960135" />
+      <entry key="M30" value="81.8111293248318" />
+      <entry key="H1" value="92.714261978425" />
+      <entry key="H2" value="99.36770227002636" />
+      <entry key="H4" value="103.05196373565248" />
+      <entry key="D1" value="106.32280390397936" />
+      <entry key="W1" value="106.90277590951709" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -121,16 +146,24 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/media/irina/Data/Projects",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/irina/Data/Projects/PasswordCracking",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "settings.editor.selected.configurable": "CMakeSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="PasswordCracking" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PasswordCracking" TARGET_NAME="PasswordCracking" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PasswordCracking" RUN_TARGET_NAME="PasswordCracking">
       <method v="2">
@@ -144,8 +177,16 @@
     </configuration>
   </component>
   <component name="SelectedDebugProfileService"><![CDATA[{
-  "profileIdByStamp": [],
-  "modificationCount": 1
+  "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.PasswordCracking",
+        "cmake": "CMakeBuildProfile:Debug"
+      },
+      "second": "6dcea41a-b7a9-4a85-9ad9-d658da665273"
+    }
+  ],
+  "modificationCount": 2
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,5 +206,20 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
     <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CMakeLists.txt setup &amp; initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMakeLists.txt setup &amp; initial commit" />
   </component>
 </project>

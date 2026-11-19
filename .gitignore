@@ -1,0 +1,52 @@
+# CMake & IDE build directories
+cmake-build-*/
+build/
+out/
+compile_commands.json
+
+# CLion project files
+.idea/
+*.iml
+
+# Compiled binaries, libraries, and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+
+# CUDA intermediate & device compilation artifacts
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+*.hash
+*.reg.c
+*.module_id
+*.nvlink.info
+*.dlink.o
+*.cudafe1.*
+*.cudafe2.*
+*.cpp1.*
+*.cpp2.*
+*.ii
+*.i
+
+# Profiler outputs (Nsight Systems / Nsight Compute)
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.qdstrm
+*.sqlite
+
+# Password cracking wordlists, hashes, and cracked outputs
+*.pot
+*.potfile
+data/
+rockyou*
+*.dic
+*.lst
