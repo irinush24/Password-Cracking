@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09e3e533-0858-4313-934d-6e2ee8383533" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.428060686193318" />
+      <entry key="MS500" value="3.252659009591075" />
+      <entry key="S2" value="8.221629632866131" />
+      <entry key="S5" value="13.124763448526922" />
+      <entry key="S10" value="16.19440538907422" />
+      <entry key="S30" value="19.138520487758218" />
+      <entry key="S60" value="20.342290044695442" />
+      <entry key="M2" value="21.890869836082434" />
+      <entry key="M5" value="24.140976760248343" />
+      <entry key="M10" value="25.37718063168056" />
+      <entry key="M15" value="25.869460940346038" />
+      <entry key="M30" value="26.40879508049971" />
+      <entry key="H1" value="26.697593874412277" />
+      <entry key="H2" value="26.847054312079997" />
+      <entry key="H4" value="26.92308617394967" />
+      <entry key="D1" value="26.98711932412594" />
+      <entry key="W1" value="26.998158386307015" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="6.58932400276197E-26" />
+      <entry key="MS500" value="9.199583646322335E-6" />
+      <entry key="S2" value="0.0550734195685433" />
+      <entry key="S5" value="0.3136005511302489" />
+      <entry key="S10" value="0.5600004992274379" />
+      <entry key="S30" value="0.8261835371416" />
+      <entry key="S60" value="0.9517750744118741" />
+      <entry key="M2" value="1.162327394030162" />
+      <entry key="M5" value="1.516002669232344" />
+      <entry key="M10" value="1.721918526207962" />
+      <entry key="M15" value="1.8054554326788637" />
+      <entry key="M30" value="1.897826227139346" />
+      <entry key="H1" value="1.9476231468197533" />
+      <entry key="H2" value="1.9734806345561835" />
+      <entry key="H4" value="1.9866565024446634" />
+      <entry key="D1" value="1.9977643499657785" />
+      <entry key="W1" value="1.9996803328476724" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3381763841430014" />
+      <entry key="MS500" value="3.2155178522923467" />
+      <entry key="S2" value="8.207581955662336" />
+      <entry key="S5" value="13.234617054867488" />
+      <entry key="S10" value="16.52803369194756" />
+      <entry key="S30" value="19.831917951876292" />
+      <entry key="S60" value="21.21478496082049" />
+      <entry key="M2" value="23.005851721615414" />
+      <entry key="M5" value="25.63363811126303" />
+      <entry key="M10" value="27.08621362506345" />
+      <entry key="M15" value="27.66600242986197" />
+      <entry key="M30" value="28.301986724386907" />
+      <entry key="H1" value="28.642852101325644" />
+      <entry key="H2" value="28.819340152100406" />
+      <entry key="H4" value="28.909142140446644" />
+      <entry key="D1" value="28.984783144092248" />
+      <entry key="W1" value="28.997824346871756" />
+    </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="3" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MKjm4zPxKbwTThnoMTYGP9YGlj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "CidrDebugProfileConversion262": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/media/irina/Data/Projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "CMakeSettings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PasswordCracking" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PasswordCracking" TARGET_NAME="PasswordCracking" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PasswordCracking" RUN_TARGET_NAME="PasswordCracking">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [],
+  "modificationCount": 1
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09e3e533-0858-4313-934d-6e2ee8383533" name="Changes" comment="" />
+      <created>1795106311193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795106311193</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>
